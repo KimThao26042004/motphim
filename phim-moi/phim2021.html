@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motphimtw</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- nhúng google font roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- nhúng font icon -->
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div id="top-header">
+                <!-- icon -->
+                <div class="left-item">
+                    <a href="../motphimtw.html">
+                        <img src="/assets/images/header/motphimtv.png" alt="">
+                    </a>
+                </div>
+                <!-- search -->
+                <div class="center-item">
+                    <div class="search">
+                        <input type="text" placeholder="V.d: tên phim, tên diễn viên">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <p>Công cụ tìm kiếm phim.</p>
+                </div>
+                <!-- user-menu -->
+                <div class="right-item">
+                    <div>
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <a href="/dang-nhap.html">Đăng nhập</a>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-registered"></i>
+                        <a href="/dang-ki.html">Đăng ký</a>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-bookmark"></i>
+                        <a href="">Bookmark</a>
+                    </div>
+                </div>
+            </div>
+            <!-- main-menu -->
+            <div id="bottom-header">
+                <ul class="bot">
+                    <li id="bot__item--active">
+                        <a href="/motphimtw.html">Trang chủ</a>
+                    </li>
+                    <li id="bot__item">Thể Loại
+                        <ul class="dropdown">
+                            <li>
+                                <a href="/the-loai/co-trang-than-thoai.html">Cổ Trang - Thần Thoại</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/khoa-hoc-vien-tuong.html">Khoa Học - Viễn Tưởng</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/bi-an-sieu-nhien.html">Bí Ẩn - Siêu Nhiên</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/vo-thuat-kiem-hiep.html">Võ Thuật - Kiếm Hiệp</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/hinh-su-chien-tranh.html">Hình Sự - Chiến Tranh</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/kinh-di-ma.html">Kinh Dị - Ma</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/thuyet-minh.html">Thuyết Minh</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/phieu-luu-hanh-dong.html">Phiêu Lưu - Hành Động</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/tam-ly-tinh-cam.html">Tâm Lý - Tình Cảm</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/van-hoa-tam-linh.html">Văn Hóa - Tâm Linh</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/hai-huoc.html">Hài Hước</a>
+                            </li>
+                            <li>
+                                <a href="/the-loai/phim-chieu-rap.html">Phim Chiếu Rạp</a>
+                            </li>
+                        </ul>  
+
+                    </li>
+                    <li id="bot__item">Quốc gia
+                        <ul class="dropdown">
+                            <li>
+                                <a href="/quoc-gia/viet-nam.html">Việt Nam</a>
+                            </li>
+                            <li>
+                                <a href="/quoc-gia/han-quoc.html">Hàn Quốc</a>
+                            </li>
+                            <li>    
+                                <a href="/quoc-gia/trung-quoc.html">Trung Quốc</a>
+                            </li>
+                            <li>
+                                <a href="/quoc-gia/nhat-ban.html">Nhật Bản</a>
+                            </li>
+                            <li>
+                                <a href="/quoc-gia/thai-lan.html">Thái Lan</a>
+                            </li>
+                            <li>
+                                <a href="/quoc-gia/an-do.html">Ấn Độ</a>
+                            </li>
+                            <li>
+                                <a href="/quoc-gia/quoc-gia-khac.html">Quốc gia khác</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="bot__item">Phim mới
+                        <ul class="dropdown">
+                            <li>
+                                <a href="/phim-moi/phim2023.html">Phim 2023</a>
+                            </li>
+                            <li>
+                                <a href="/phim-moi/phim2022.html">Phim 2022</a>
+                            </li>
+                            <li>
+                                <a href="/phim-moi/phim2021.html">Phim 2021</a>
+                            </li>
+                            <li>
+                                <a href="/phim-moi/phim2020.html">Phim 2020</a>
+                            </li>
+                            <li>
+                                <a href="/phim-moi/phim2019.html">Phim 2019</a>
+                            </li>
+                            <li>
+                                <a href="/phim-moi/phim2018.html">Phim 2018</a>
+                            </li>
+                            <li>
+                                <a href="/phim-moi/phim2017.html">Phim 2017</a>
+                            </li>
+                            <li>
+                                <a href="/phim-moi/phim2016.html">Phim 2016</a>
+                            </li>
+                            <li>
+                                <a href="/phim-moi/phim2015.html">Phim 2015</a>
+                            </li>
+                            <li>
+                                <a href="/phim-moi/phim2014.html">Phim 2014</a>
+                            </li>
+                            <li>
+                                <a href="/phim-moi/phim2013.html">Phim 2013</a>
+                            </li>
+                        </ul>    
+                    </li>
+                    <li>
+                        <a href="/phim-bo.html">Phim bộ</a>
+                    </li>
+                    <li>
+                        <a href="/phim-le.html">Phim lẻ</a>
+                    </li>
+                    <li>
+                        <a href="/phim-thuyet-minh.html">Phim thuyết minh</a>
+                    </li>
+                    <li>
+                        <a href="/phim-chieu-rap.html">Phim chiếu rạp</a>
+                    </li>
+                    <li>
+                        <a href="/tv-show.html">TV Show</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <!-- <div class="clear"></div> -->
+        <div class="container">
+        <div id="left-container">
+            <!-- start film-bo-moi -->
+            <div class="list-films film-new">
+                <ul class="breadcrumbs">
+                    <li>
+                        <a href="/motphimtw.html">Mọt phim/</a>
+                    </li>
+                    <li>
+                        <span>Phim mới</span>
+                    </li>
+                </ul>
+                <div class="filter-item">
+                    <select class="form-control" name="" id="">
+                        <option value="">--Sắp xếp--</option>
+                        <option value="">Ngày đăng phim</option>
+                        <option value="">Năm sản xuất</option>
+                        <option value="">Tên phim</option>
+                        <option value="">Lượt xem</option>
+                    </select>
+                    <select class="form-control" name="" id="">
+                        <option value="">--Thể loại--</option>
+                        <option value="">Cổ trang - Thần thoại</option>
+                        <option value="">Võ thuật - Kiếm hiệp</option>
+                        <option value="">Phiêu lưu - Hành động</option>
+                        <option value="">Tâm lý - Tình cảm</option>
+                        <option value="">Hoạt hình</option>
+                        <option value="">Khoa học - Viễn tưởng</option>
+                        <option value="">Hình sự - Chiến tranh</option>
+                        <option value="">Tài liệu - Khám phá</option>
+                        <option value="">Văn hóa - Tâm linh</option>
+                        <option value="">Hài hước</option>
+                        <option value="">Thể thao - Âm nhạc</option>
+                        <option value="">Kinh dị - Ma</option>
+                        <option value="">TV Show</option>
+                        <option value="">Phim chiếu rạp</option>
+                    </select>
+                    <select class="form-control" name="" id="">
+                        <option value="">--Quốc gia--</option>
+                        <option value="">Việt Nam</option>
+                        <option value="">Hàn Quốc</option>
+                        <option value="">Trung Quốc</option>
+                        <option value="">Thái Lan</option>
+                        <option value="">Nhật Bản</option>
+                        <option value="">Hồng Kông</option>
+                        <option value="">Âu - Mỹ</option>
+                        <option value="">Khác</option>
+                    </select>
+                    <select class="form-control" name="" id="">
+                        <option value="">--Năm--</option>
+                        <option value="">Năm 2023</option>
+                        <option value="">Năm 2022</option>
+                        <option value="">Năm 2021</option>
+                        <option value="">Năm 2020</option>
+                        <option value="">Năm 2019</option>
+                        <option value="">Năm 2018</option>
+                        <option value="">Năm 2017</option>
+                        <option value="">Năm 2016</option>
+                        <option value="">Năm 2015</option>
+                        <option value="">Năm 2014</option>
+                        <option value="">Năm 2013</option>
+                    </select>
+                    <input type="submit" class="loc-phim" value="Lọc phim">
+                </div>
+                <div class="clear"></div>
+                <ul class="film-new">
+                    <li class="item">
+                        <span class="label">Tập 10 Vietsub</span>
+                        <img class="item-img" src="/assets/images/phim-moi/nam2021/chien-binh-ao-10553.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Chiến binh ảo</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 12 Vietsub</span>
+                        <img class="item-img" src="/assets/images/phim-moi/nam2021/chang-trai-xinh-dep-9615.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Chàng trai xinh đẹp</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 16 Vietsub</span>
+                        <img class="item-img" src="/assets/images/phim-moi/nam2021/khoi-day-dam-me-9170.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Khơi dậy đam mê</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Full 24/24 Vietsub + TM</span>
+                        <img class="item-img" src="/assets/images/phim-moi/nam2021/nu-bac-si-tam-ly-9668.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Nữ bác sĩ tâm lý</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 9 Vietsub</span>
+                        <img class="item-img" src="/assets/images/phim-moi/nam2021/thi-tran-riverdale-phan-6-9616.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Thị trấn Riverdale (Phần 6)</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 14 Vietsub</span>
+                        <img class="item-img" src="/assets/images/phim-moi/nam2021/thuc-thi-cong-ly-10555.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Thực thi công lý</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 14 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/trang-len-ban-ngay.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Trăng lên ban ngày 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 140 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/the-gioi-hoan-my-9380.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Thế giới hoàn mỹ 2021</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Full 10/10 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/vao-gio-phut-nay.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Vào giờ phút này 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 17 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/dai-chua-te-hoat-hinh.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Đại chúa tể (Hoạt hình) 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 16 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/ac-ma-phap-tac.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Ác ma pháp tắc 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 1082 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/dao-hai-tac-718.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Đảo hải tặc 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 9 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/cuoc-hon-nhan-thu-ba.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Cuộc hôn nhân thứ ba 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Full 6/6 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/loki-than-lua-loc-phan-2.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Loki: Thần lừa lọc (Phần 2) 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Full 8/8 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/bat-kha-chien-bai.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Bất khả chiến bại 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Full 8/8 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/du-bao-tinh-yeu.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Dự báo tình yêu 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                </ul>
+            </div>
+            <!-- end film-bo -->
+            <div class="clear"></div>
+            <!-- start film-hoat-hinh -->
+            <div class="list-films film-new">
+                <ul class="film-new">
+                    <li class="item">
+                        <span class="label">Full 2/2 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/dai-chien-titan-phan-6.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Đại chiến Titan (Phần 6) 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 16 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/ac-ma-phap-tac.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Ác ma pháp tắc 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 17 Vietsub</span>
+                        <img class="item-img" src=/assets/images/left-container/dai-chua-te-hoat-hinh.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Đại chúa tể (Hoạt hình) 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 16 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/chu-thuat-hoi-chien-phan-2.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Chú thuật hồi chiến (Phần 2) 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 12 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/bat-kha-chien-bai-phan-2.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Bất khả chiến bại (Phần 2) 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 15 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/doc-bo-van-co.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Độc bộ vạn cổ 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 15 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/thai-nhat-kiem-tien-truyen.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Thái nhất kiếm tiên truyện 2023</a>
+                        <i class="icon-play"></i>
+                    </li>
+                    <li class="item">
+                        <span class="label">Tập 140 Vietsub</span>
+                        <img class="item-img" src="/assets/images/left-container/the-gioi-hoan-my-9380.jpg" alt="" width="160px">
+                        <a class="title" href=" ">Thế giới hoàn mỹ 2021</a>
+                        <i class="icon-play"></i>
+                    </li>
+                </ul>
+        </div>
+        <!-- end film-hoat-hinh -->
+        <div class="clear"></div>
+        <!-- start film-yeu-thich -->
+        <div class="list-films film-new">
+            <ul class="film-new">
+                <li class="item">
+                    <span class="label">Full 40/40 Vietsub</span>
+                    <img class="item-img" src="/assets/images/left-container/truong-nguyet-tan-minh-11140.jpg" alt="" width="160px">
+                    <a class="title" href=" ">Trường nguyệt tẫn minh 2023</a>
+                    <i class="icon-play"></i>
+                </li>
+                <li class="item">
+                    <span class="label">Full 28/28 Vietsub</span>
+                    <img class="item-img" src="/assets/images/left-container/tinh-yeu-anh-danh-cho-em-11176.jpg" alt="" width="160px">
+                    <a class="title" href=" ">Tình yêu anh dành cho em 2023</a>
+                    <i class="icon-play"></i>
+                </li>
+                <li class="item">
+                    <span class="label">Full 40/40 Vietsub</span>
+                    <img class="item-img" src="/assets/images/left-container/tinh-lac-ngung-thanh-duong-10992.jpg" alt="" width="160px">
+                    <a class="title" href=" ">Tinh lạc ngưng thành đường 2023</a>
+                    <i class="icon-play"></i>
+                </li>
+                <li class="item">
+                    <span class="label">Full 36/36 Vietsub</span>
+                    <img class="item-img" src="/assets/images/left-container/hoa-nhung.jpg" alt="" width="160px">
+                    <a class="title" href=" ">Hoa nhung 2023</a>
+                    <i class="icon-play"></i>
+                </li>
+                <li class="item">
+                    <span class="label">Full 24/24 Vietsub</span>
+                    <img class="item-img" src="/assets/images/left-container/doi-voi-toi-anh-ay-la-nguoi-nguy-hiem-10889.jpg" alt="" width="160px">
+                    <a class="title" href=" ">Đối với tôi anh ấy là người nguy hiểm 2023</a>
+                    <i class="icon-play"></i>
+                </li>
+                <li class="item">
+                    <span class="label">Full 36/36 Vietsub</span>
+                    <img class="item-img" src="/assets/images/left-container/nghe-noi-em-thich-toi-10954.jpg" alt="" width="160px">
+                    <a class="title" href=" ">Nghe nói em thích tôi 2023</a>
+                    <i class="icon-play"></i>
+                </li>
+                <li class="item">
+                    <span class="label">Full 40/40 Vietsub</span>
+                    <img class="item-img" src="/assets/images/left-container/ho-tam.jpg" alt="" width="160px">
+                    <a class="title" href=" ">Hộ tâm 2023</a>
+                    <i class="icon-play"></i>
+                </li>
+                <li class="item">
+                    <span class="label">Full 40/40 Vietsub</span>
+                    <img class="item-img" src="/assets/images/left-container/hau-lang-11236.jpg" alt="" width="160px">
+                    <a class="title" href=" ">Hậu lãng 2023</a>
+                    <i class="icon-play"></i>
+                </li>
+            </ul>
+    </div>
+    <!-- end film-yeu-thich -->
+    <!-- <div class="clear"></div> -->
+    <!-- start film-upcoming -->
+        <div id="right-container">
+            <div class="list-films film-upcoming">
+                <h2 class="film-upcoming box-item">
+                    <a class="tab-active-2" href="">Phim sắp chiếu</a>
+                </h2>
+            </div>
+            <ul class="film-upcoming">
+                <li class="item-2">
+                    <img class="item-img-2" src="/assets/images/right-container/co-dau-xuyen-khong.jpg" alt="" width="90px">
+                    <div class="title-2" href=" ">
+                        <a href="">Cô dâu xuyên không</a>
+                        <p class="year">2023</p>
+                        <p class="star">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-off.png" alt="">
+                        </p>
+                    </div>
+                </li>
+                <li class="item-2">
+                    <img class="item-img-2" src="/assets/images/right-container/quan-tam-kho-doan.jpg" alt="" width="90px">
+                    <div class="title-2" href=" ">
+                        <a href="">Quân tâm khó đoán</a>
+                        <p class="year">2023</p>
+                        <p class="star">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-off.png" alt="">
+                        </p>
+                    </div>
+                </li>
+                <li class="item-2">
+                    <img class="item-img-2" src="/assets/images/right-container/tan-than-dieu-dai-hiep-6426.jpg" alt="" width="90px">
+                    <div class="title-2" href=" ">
+                        <a href="">Tân thần điêu đại hiệp</a>
+                        <p class="year">2023</p>
+                        <p class="star">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                        </p>
+                    </div>
+                </li>
+                <li class="item-2">
+                    <img class="item-img-2" src="/assets/images/right-container/thanh-xuan-trong-chien-hoa-11179.jpg" alt="" width="90px">
+                    <div class="title-2" href=" ">
+                        <a href="">Thanh xuân trong chiến hỏa</a>
+                        <p class="year">2023</p>
+                        <p class="star">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                        </p>
+                    </div>
+                </li>
+                <li class="item-2">
+                    <img class="item-img-2" src="/assets/images/right-container/thao-thiet-ky-11101.jpg" alt="" width="90px">
+                    <div class="title-2" href=" ">
+                        <a href="">Thao khiết ký</a>
+                        <p class="year">2023</p>
+                        <p class="star">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-off.png" alt="">
+                        </p>
+                    </div>
+                </li>
+                <li class="item-2">
+                    <img class="item-img-2" src="/assets/images/right-container/trieu-ca-6529.jpg" alt="" width="90px">
+                    <div class="title-2" href=" ">
+                        <a href="">Triều ca</a>
+                        <p class="year">2023</p>
+                        <p class="star">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-on.png" alt="">
+                            <img src="/assets/images/right-container/star-off.png" alt="">
+                            <img src="/assets/images/right-container/star-off.png" alt="">
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <div class="trending">
+                <h2 class="trending box-item">
+                    <a class="tab-active-2" href="">Trending</a>
+                </h2>
+            </div>
+            <div class="tabs">
+                <a class="tab tab-active-3" href="/trending/ngay.html">Ngày</a>
+                <a class="tab" href="/trending/tuan.html">Tuần</a>
+                <a class="tab" href="/trending/thang.html">Tháng</a>
+            </div>
+            <ul class="trending">
+                <li class="item item1">
+                    <span class="number-rank">1</span>
+                    <a class="name" href="">Dĩ ái vi doanh</a>
+                    <div class="count-view">190 lượt quan tâm</div>
+                </li>
+                <li class="item">
+                    <span class="number-rank">2</span>
+                    <a class="name" href="">Ninh an như ngọc</a>
+                    <div class="count-view">150 lượt quan tâm</div>
+                </li>
+                <li class="item">
+                    <span class="number-rank">3</span>
+                    <a class="name" href="">Cuộc chiến sinh tồn</a>
+                    <div class="count-view">118 lượt quan tâm</div>
+                </li>
+                <li class="item">
+                    <span class="number-rank">4</span>
+                    <a class="name" href="">Lạc du nguyên</a>
+                    <div class="count-view">99 lượt quan tâm</div>
+                </li>
+                <li class="item">
+                    <span class="number-rank">5</span>
+                    <a class="name" href="">Dưa hấu lấp lánh</a>
+                    <div class="count-view">91 lượt quan tâm</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </main>
+    <div class="clear"></div>
+    <footer>
+        <div class="left-footer">
+            <p> <b><a href="">Xem phim hay</a></b>
+                miễn phí chất lượng cao với phụ đề tiếng việt - thuyết minh - lồng tiếng. Mọt phim có nhiều thể loại phim phong phú, đặc sắc, nhiều bộ phim hay nhất - mới nhất.
+            </p>
+            <p>
+                Website MọtPhimTV với giao diện trực quan, thuận tiện, tốc độ tải nhanh, với độ tin cậy cao hứa hẹn sẽ đem lại những trải nghiệm tốt nhất cho người dùng.
+            </p>
+        </div>
+        <div class="right-footer">
+            <div class="column">
+                <div class="heading">Quy định</div>
+                <ul>
+                    <li>
+                        <a href="">Điều khoản chung</a>
+                    </li>
+                    <li>
+                        <a href="">Chính sách riêng tư</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <div class="heading">Giới thiệu</div>
+                <ul>
+                    <li>
+                        <a href="">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="">Facebook</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

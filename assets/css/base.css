@@ -1,0 +1,50 @@
+:root{
+    --main-color: #ff9601;
+    --text-color: white;
+    --separate-color: #E3E2E2;
+    --line-color: #66AFE9;
+    /* --small-text-color: #303030; */
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(56, 56, 56);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer; 
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+/* .grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+} */
